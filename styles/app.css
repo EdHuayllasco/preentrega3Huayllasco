@@ -380,7 +380,7 @@ h2::after, .heading-blanco::after {
   width: 10rem;
   height: 10rem;
   margin: 0 auto;
-  background-image: url(../../src/img/cafe.svg);
+  background-image: url(../../img/cafe.svg);
   background-size: 10rem;
 }
 
@@ -435,27 +435,27 @@ h3 {
 }
 
 .header-inicio {
-  background-image: url(../../src/img/header_inicio.jpg);
+  background-image: url(../../img/header_inicio.jpg);
 }
 
 .header-nosotros {
-  background-image: url(../../src/img/header_nosotros.jpg);
+  background-image: url(../../img/header_nosotros.jpg);
 }
 
 .header-proceso {
-  background-image: url(../../src/img/header_proceso.jpg);
+  background-image: url(../../img/header_proceso.jpg);
 }
 
 .header-menu {
-  background-image: url(../../src/img/header_menu.jpg);
+  background-image: url(../../img/header_menu.jpg);
 }
 
 .header-galeria {
-  background-image: url(../../src/img/header_galeria.jpg);
+  background-image: url(../../img/header_galeria.jpg);
 }
 
 .header-contacto {
-  background-image: url(../../src/img/header_contacto.jpg);
+  background-image: url(../../img/header_contacto.jpg);
 }
 
 .nav-principal {
