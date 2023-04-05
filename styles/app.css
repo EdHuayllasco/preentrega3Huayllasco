@@ -417,7 +417,7 @@ h3 {
   left: 0;
   right: 0;
   bottom: 0;
-  opacity: 0.3;
+  opacity: 0.6;
 }
 .header .contenido-header {
   position: relative;
@@ -448,6 +448,10 @@ h3 {
 
 .header-menu {
   background-image: url(../../src/img/header_menu.jpg);
+}
+
+.header-galeria {
+  background-image: url(../../src/img/header_galeria.jpg);
 }
 
 .nav-principal {
