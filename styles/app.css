@@ -652,7 +652,7 @@ h3 {
 }
 
 .nuestro-menu {
-  background-image: url(../src/img/header_inicio.jpg), url(../src/img/menu_abajo.svg), linear-gradient(to top, #5E311E, #5E311E);
+  background-image: url(../src/img/menu_arriba.svg), url(../src/img/menu_abajo.svg), linear-gradient(to top, #5E311E, #5E311E);
   background-repeat: no-repeat;
   background-position: center 5rem, center 92%, 100%;
   background-size: 200%;
