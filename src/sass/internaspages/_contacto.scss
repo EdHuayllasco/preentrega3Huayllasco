@@ -3,7 +3,7 @@
 .contenido-contacto{
     @include m.tablet { 
         @include m.grid(2,v.$separacion);
-        background-image: url(../../src/img/granos_cafe.jpg);
+        background-image: url(../src/img/granos_cafe.jpg);
         background-repeat: no-repeat;
         background-position: right center;
         background-size: 40%;

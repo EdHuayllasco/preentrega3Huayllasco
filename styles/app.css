@@ -652,7 +652,7 @@ h3 {
 }
 
 .nuestro-menu {
-  background-image: url(../../src/img/menu_arriba.svg), url(../../src/img/menu_abajo.svg), linear-gradient(to top, #5E311E, #5E311E);
+  background-image: url(../src/img/menu_arriba.svg), url(../src/img/menu_abajo.svg), linear-gradient(to top, #5E311E, #5E311E);
   background-repeat: no-repeat;
   background-position: center 5rem, center 92%, 100%;
   background-size: 200%;
@@ -845,7 +845,7 @@ h3 {
 }
 
 .contenido-menu {
-  background-image: url(../../src/img/cafe.jpg);
+  background-image: url(../src/img/cafe.jpg);
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: 100%;
@@ -875,7 +875,7 @@ h3 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 5rem;
-    background-image: url(../../src/img/granos_cafe.jpg);
+    background-image: url(../src/img/granos_cafe.jpg);
     background-repeat: no-repeat;
     background-position: right center;
     background-size: 40%;
