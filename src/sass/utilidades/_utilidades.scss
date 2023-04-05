@@ -14,3 +14,12 @@
 .padding-bottom-0{
     padding-bottom: 0;
 }
+.degradado{
+    color: transparent;
+    background: linear-gradient(90deg, rgba(33,13,47,0.7959558823529411) 0%, rgba(221,111,138,1) 43%, rgba(101,49,13,0.9332107843137255) 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+.opcity{
+    opacity: 1;
+}
