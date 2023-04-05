@@ -352,22 +352,6 @@ ul {
   margin: 0;
 }
 
-.text-center {
-  text-align: center;
-}
-
-.bg-primario {
-  background-color: #5E311E;
-}
-
-.margin-negativo-10 {
-  margin-top: -10rem;
-}
-
-.bg-white {
-  background-color: #fff;
-}
-
 h1, h2, .heading-blanco, h3 {
   font-family: "Raleway", sans-serif;
   margin: 0 0 5rem 0;
@@ -460,6 +444,10 @@ h3 {
 
 .header-proceso {
   background-image: url(../../src/img/header_proceso.jpg);
+}
+
+.header-menu {
+  background-image: url(../../src/img/header_menu.jpg);
 }
 
 .nav-principal {
@@ -770,6 +758,34 @@ h3 {
   }
 }
 
+@media (min-width: 768px) {
+  .contenido-nosotros {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+}
+.contenido-nosotros .imagen {
+  margin-bottom: 5rem;
+}
+@media (min-width: 768px) {
+  .contenido-nosotros .imagen {
+    margin-right: 2rem;
+    margin-bottom: 0;
+  }
+}
+.contenido-nosotros .imagen img {
+  transform: rotate(-6deg);
+  border: 3rem solid #fff;
+  box-shadow: 9px 10px 5px -7px rgba(0, 0, 0, 0.35);
+}
+.contenido-nosotros .texto blockquote {
+  margin: 0;
+  padding: 1rem;
+  border-left: 0.5rem solid #5E311E;
+  font-size: 2rem;
+}
+
 .proceso-cafe {
   margin-bottom: 5rem;
 }
@@ -806,30 +822,48 @@ h3 {
   background-color: #C39C63;
 }
 
-@media (min-width: 768px) {
-  .contenido-nosotros {
+.contenido-menu {
+  background-image: url(../../src/img/cafe.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: 100%;
+  aspect-ratio: 3/5;
+}
+@media (min-width: 480px) {
+  .contenido-menu {
+    aspect-ratio: 3/4;
+  }
+}
+@media (min-width: 1024px) {
+  .contenido-menu {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 2rem;
+    gap: 5rem;
+    aspect-ratio: 16/6;
+    background-size: 40%;
+    background-position: bottom right;
   }
 }
-.contenido-nosotros .imagen {
-  margin-bottom: 5rem;
-}
-@media (min-width: 768px) {
-  .contenido-nosotros .imagen {
-    margin-right: 2rem;
-    margin-bottom: 0;
-  }
-}
-.contenido-nosotros .imagen img {
-  transform: rotate(-6deg);
-  border: 3rem solid #fff;
-  box-shadow: 9px 10px 5px -7px rgba(0, 0, 0, 0.35);
-}
-.contenido-nosotros .texto blockquote {
-  margin: 0;
-  padding: 1rem;
-  border-left: 0.5rem solid #5E311E;
+.contenido-menu .texto p {
   font-size: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-primario {
+  background-color: #5E311E;
+}
+
+.margin-negativo-10 {
+  margin-top: -10rem;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+.padding-bottom-0 {
+  padding-bottom: 0;
 }/*# sourceMappingURL=app.css.map */
