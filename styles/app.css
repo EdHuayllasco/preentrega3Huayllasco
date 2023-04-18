@@ -465,12 +465,22 @@ h3 {
 }
 @media (min-width: 768px) {
   .nav-principal {
-    flex-direction: row;
     gap: 1rem;
     margin-top: 0;
   }
 }
-.nav-principal a {
+@media (min-width: 1024px) {
+  .nav-principal {
+    flex-direction: row;
+    justify-items: flex-end;
+    gap: 1rem;
+    margin-top: 0;
+  }
+}
+.nav-principal ul {
+  margin: 0 auto;
+}
+.nav-principal ul a {
   text-align: center;
   color: #fff;
   font-size: 2rem;
@@ -479,45 +489,69 @@ h3 {
   margin-bottom: 1rem;
 }
 @media (min-width: 768px) {
-  .nav-principal a {
+  .nav-principal ul a {
     margin-bottom: 0;
   }
 }
-.nav-principal a:hover {
+.nav-principal ul a:hover {
   color: #C39C63;
 }
-.nav-principal a.activo {
+.nav-principal ul a.activo {
   color: #C39C63;
-}
-
-.navbar {
-  margin-top: 0;
-}
-
-.navbar-toggler {
-  background-color: #ebe7de;
 }
 
 .barra {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
 }
 @media (min-width: 768px) {
   .barra {
-    flex-direction: row;
     justify-content: space-between;
     align-items: center;
   }
 }
 .barra .logo {
   width: 50%;
-  margin: 0 auto;
 }
 @media (min-width: 768px) {
   .barra .logo {
     width: 20rem;
     margin: 0;
   }
+}
+
+.navbar {
+  padding: 0;
+}
+
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+}
+
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand {
+  color: #fff;
+}
+
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+}
+
+.navbar-brand {
+  font-size: 1.75rem;
+  letter-spacing: 3px;
+}
+
+.navbar-toggler {
+  border-color: #fff;
+}
+
+.fa-bars {
+  color: #fff;
 }
 
 .contenido-principal {
