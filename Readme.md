@@ -3,4 +3,4 @@
 [EdCoffe](https://edhuayllasco.github.io/preentrega3Huayllasco/index.html)
 
 ### Netlify: 
-[EdCoffeNet](https://edcoffe.netlify.app/)
+[EdCoffeNet](https://edcoffe97.netlify.app/)
